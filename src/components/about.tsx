@@ -53,7 +53,6 @@ const About = () => {
     "Framer Motion",
     "Tailwind CSS",
     "Chakra UI",
-
     "Shadcn UI",
     "GSAP",
     "Three.js",

@@ -8,8 +8,9 @@ import { LeftSide } from "@/components/layout/left-side";
 import { RightSide } from "@/components/layout/right-side";
 import Banner from "@/components/banner";
 import About from "@/components/about";
-import Experience from "@/components/experience";
 import { Projects } from "@/components/projects";
+import { Contact } from "@/components/contact";
+import { Footer } from "@/components/footer";
 
 export default function Home() {
   const [isLoading, setIsLoading] = useState(true);
@@ -81,20 +82,6 @@ export default function Home() {
                     >
                       <Banner />
                     </motion.div>
-                    {/* <motion.div
-                      initial={{ opacity: 0, y: 50 }}
-                      animate={{ opacity: 1, y: 0 }}
-                      transition={{ duration: 0.5, delay: 0.2 }}
-                    >
-                      <About />
-                    </motion.div>
-                    <motion.div
-                      initial={{ opacity: 0, y: 50 }}
-                      animate={{ opacity: 1, y: 0 }}
-                      transition={{ duration: 0.5, delay: 0.6 }}
-                    >
-                      <Experience />
-                    </motion.div> */}
                     <motion.div
                       initial={{ opacity: 0, y: 50 }}
                       animate={{ opacity: 1, y: 0 }}
@@ -105,9 +92,23 @@ export default function Home() {
                     <motion.div
                       initial={{ opacity: 0, y: 50 }}
                       animate={{ opacity: 1, y: 0 }}
-                      transition={{ duration: 0.5, delay: 0.2 }}
+                      transition={{ duration: 0.5, delay: 1.2 }}
                     >
                       <About />
+                    </motion.div>
+                    <motion.div
+                      initial={{ opacity: 0, y: 50 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      transition={{ duration: 0.5, delay: 1.6 }}
+                    >
+                      <Contact />
+                    </motion.div>
+                    <motion.div
+                      initial={{ opacity: 0, y: 50 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      transition={{ duration: 0.5, delay: 2.0 }}
+                    >
+                      <Footer />
                     </motion.div>
                   </motion.div>
                 </div>
