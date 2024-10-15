@@ -5,9 +5,9 @@ export const Footer = () => {
     <div className="w-full max-w-7xl mx-auto flex justify-between pt-4 border-t border-textlight">
       <p className="uppercase font-bold text-xs sm:text-lg">Copyright 2024</p>
       <p className="uppercase font-bold text-xs sm:text-lg text-right">
-        Design and Development by{" "}
+        Development by{" "}
         <Link
-          href="www.github.com/nuelScript/"
+          href="https://github.com/nuelScript"
           className="underline hover:text-textGreen duration-300 transition-all"
         >
           Ibiang Emmanuel
