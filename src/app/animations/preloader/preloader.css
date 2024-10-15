@@ -16,4 +16,11 @@
 
 .preloader .texts-container {
   height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  background-color: #020c1b;
 }
