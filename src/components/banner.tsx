@@ -25,7 +25,7 @@ const Banner = () => {
       >
         <span className="tracking-tight sm:w-1/3">
           Frontend Engineer and Web Designer, currently at{" "}
-          <AnimatedLink href="https://gpitpro.com">GPIT Nigeria</AnimatedLink>
+          <AnimatedLink href="https://m.gpitpro.com">GPIT Nigeria</AnimatedLink>
         </span>
         <span className="tracking-tight sm:text-right sm:w-1/3">
           Focused on interfaces and experiences, working remotely from Lagos,
