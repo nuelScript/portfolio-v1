@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Syne } from "next/font/google";
+import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
 
 const syne = Syne({
@@ -56,7 +57,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${syne.className} antialiased`}>{children}</body>
+      <body className={`${syne.className} antialiased`}>
+        <Analytics />
+        {children}
+      </body>
     </html>
   );
 }
