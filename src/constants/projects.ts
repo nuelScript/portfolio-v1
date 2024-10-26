@@ -4,6 +4,7 @@ import {
   casecobra,
   databrain,
   evig,
+  gpit,
 } from "../../public/assets";
 
 export const projects = [
@@ -61,5 +62,16 @@ export const projects = [
     technologies: ["NextJS", "Typescript", "Tailwind CSS", "Framer Motion"],
     githubSrc: "https://github.com/nuelScript/evig",
     liveDemo: "https://evigschools.com/",
+  },
+  {
+    id: 6,
+    imgSrc: gpit,
+    href: "https://m.gpitpro.com/",
+    title: "GPIT Nigeria",
+    description:
+      "GPIT Pro is one of the main offshore IT organizations in Nigeria offering custom software development services.",
+    technologies: ["NextJS", "Typescript", "Tailwind CSS", "Framer Motion"],
+    githubSrc: "https://github.com/nuelScript/gpit-web",
+    liveDemo: "https://m.gpitpro.com/",
   },
 ];
