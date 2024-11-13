@@ -74,4 +74,15 @@ export const projects = [
     githubSrc: "https://github.com/nuelScript/gpit-web",
     liveDemo: "https://m.gpitpro.com/",
   },
+  {
+    id: 7,
+    imgSrc: gpit,
+    href: "https://icaeisdcovenantuniversity.org/",
+    title: "ICAEISD 2024",
+    description:
+      "Official website and portal for ICAEISD 2024, the annual conference of the College of Engineering, Covenant University.",
+    technologies: ["NextJS", "Typescript", "Tailwind CSS", "Framer Motion"],
+    githubSrc: "https://github.com/nuelScript/coe-app",
+    liveDemo: "https://icaeisdcovenantuniversity.org/",
+  },
 ];
