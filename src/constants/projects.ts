@@ -5,6 +5,7 @@ import {
   databrain,
   evig,
   gpit,
+  icaeisd,
 } from "../../public/assets";
 
 export const projects = [
@@ -76,7 +77,7 @@ export const projects = [
   },
   {
     id: 7,
-    imgSrc: gpit,
+    imgSrc: icaeisd,
     href: "https://icaeisdcovenantuniversity.org/",
     title: "ICAEISD 2024",
     description:
