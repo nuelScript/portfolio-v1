@@ -24,7 +24,7 @@ const Banner = () => {
         className="text-xl text-textDark font-medium max-w-7xl gap-1 flex justify-between flex-col items-center sm:flex-row sm:items-center"
       >
         <span className="tracking-tight sm:w-1/3">
-          Frontend Engineer and Web Designer, currently at{" "}
+          Full-Stack Engineer and Web Designer, currently at{" "}
           <AnimatedLink href="https://m.gpitpro.com">GPIT Nigeria</AnimatedLink>
         </span>
         <span className="tracking-tight sm:text-right sm:w-1/3">
