@@ -11,6 +11,17 @@ import {
 export const projects = [
   {
     id: 1,
+    imgSrc: icaeisd,
+    href: "https://icaeisdcovenantuniversity.org/",
+    title: "ICAEISD 2024",
+    description:
+      "Official website and portal for ICAEISD 2024, the annual conference of the College of Engineering, Covenant University.",
+    technologies: ["NextJS", "Typescript", "Tailwind CSS", "Framer Motion"],
+    githubSrc: "https://github.com/nuelScript/coe-app",
+    liveDemo: "https://icaeisdcovenantuniversity.org/",
+  },
+  {
+    id: 2,
     imgSrc: databrain,
     href: "https://data-brain-ai.vercel.app/",
     title: "Databrain AI",
@@ -21,7 +32,7 @@ export const projects = [
     liveDemo: "https://data-brain-ai.vercel.app/",
   },
   {
-    id: 2,
+    id: 3,
     imgSrc: adminDashborad,
     href: "https://ecommerce-admin-nuelscript.vercel.app/",
     title: "Ecommerce Admin",
@@ -32,7 +43,7 @@ export const projects = [
     liveDemo: "https://ecommerce-admin-nuelscript.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     imgSrc: casecobra,
     href: "https://cobra-prod.vercel.app/",
     title: "CaseCobra",
@@ -43,7 +54,7 @@ export const projects = [
     liveDemo: "https://cobra-prod.vercel.app/",
   },
   {
-    id: 4,
+    id: 5,
     imgSrc: abiye,
     href: "https://abiye-portfolio.vercel.app/",
     title: "Abiye",
@@ -54,7 +65,7 @@ export const projects = [
     liveDemo: "https://abiye-portfolio.vercel.app/",
   },
   {
-    id: 5,
+    id: 6,
     imgSrc: evig,
     href: "https://evigschools.com/",
     title: "EVIG International",
@@ -65,7 +76,7 @@ export const projects = [
     liveDemo: "https://evigschools.com/",
   },
   {
-    id: 6,
+    id: 7,
     imgSrc: gpit,
     href: "https://m.gpitpro.com/",
     title: "GPIT Nigeria",
@@ -74,16 +85,5 @@ export const projects = [
     technologies: ["NextJS", "Typescript", "Tailwind CSS", "Framer Motion"],
     githubSrc: "https://github.com/nuelScript/gpit-web",
     liveDemo: "https://m.gpitpro.com/",
-  },
-  {
-    id: 7,
-    imgSrc: icaeisd,
-    href: "https://icaeisdcovenantuniversity.org/",
-    title: "ICAEISD 2024",
-    description:
-      "Official website and portal for ICAEISD 2024, the annual conference of the College of Engineering, Covenant University.",
-    technologies: ["NextJS", "Typescript", "Tailwind CSS", "Framer Motion"],
-    githubSrc: "https://github.com/nuelScript/coe-app",
-    liveDemo: "https://icaeisdcovenantuniversity.org/",
   },
 ];
