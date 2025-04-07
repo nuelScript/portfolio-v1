@@ -6,11 +6,35 @@ import {
   evig,
   gpit,
   icaeisd,
+  ivory,
+  pennyfy,
 } from "../../public/assets";
 
 export const projects = [
   {
     id: 1,
+    imgSrc: pennyfy,
+    href: "https://pennyfy.shop/",
+    title: "Pennyfy.shop",
+    description:
+      "Simplify your shopping with a smarter experience. Pennyfy.shop is a platform that allows you to shop for your favorite products with ease.",
+    technologies: ["NextJS", "Typescript", "Tailwind CSS", "Framer Motion"],
+    githubSrc: "https://github.com/Promade-com-co/pennyfy-client",
+    liveDemo: "https://pennyfy.shop/",
+  },
+  {
+    id: 2,
+    imgSrc: ivory,
+    href: "https://ivory.finance/",
+    title: "Ivory Finance",
+    description:
+      "Discover financial insights with the power of AI. Ivory Finance helps you find, analyze, and leverage financial data and products.",
+    technologies: ["NextJS", "Typescript", "Tailwind CSS", "Framer Motion"],
+    githubSrc: "https://github.com/Vennroad/Dev",
+    liveDemo: "https://ivory.finance/",
+  },
+  {
+    id: 3,
     imgSrc: icaeisd,
     href: "https://icaeisdcovenantuniversity.org/",
     title: "ICAEISD 2024",
@@ -21,7 +45,7 @@ export const projects = [
     liveDemo: "https://icaeisdcovenantuniversity.org/",
   },
   {
-    id: 2,
+    id: 4,
     imgSrc: databrain,
     href: "https://data-brain-ai.vercel.app/",
     title: "Databrain AI",
@@ -32,7 +56,7 @@ export const projects = [
     liveDemo: "https://data-brain-ai.vercel.app/",
   },
   {
-    id: 3,
+    id: 5,
     imgSrc: adminDashborad,
     href: "https://ecommerce-admin-nuelscript.vercel.app/",
     title: "Ecommerce Admin",
@@ -43,7 +67,7 @@ export const projects = [
     liveDemo: "https://ecommerce-admin-nuelscript.vercel.app/",
   },
   {
-    id: 4,
+    id: 6,
     imgSrc: casecobra,
     href: "https://cobra-prod.vercel.app/",
     title: "CaseCobra",
@@ -54,7 +78,7 @@ export const projects = [
     liveDemo: "https://cobra-prod.vercel.app/",
   },
   {
-    id: 5,
+    id: 7,
     imgSrc: abiye,
     href: "https://abiye-portfolio.vercel.app/",
     title: "Abiye",
@@ -65,7 +89,7 @@ export const projects = [
     liveDemo: "https://abiye-portfolio.vercel.app/",
   },
   {
-    id: 6,
+    id: 8,
     imgSrc: evig,
     href: "https://evigschools.com/",
     title: "EVIG International",
@@ -76,7 +100,7 @@ export const projects = [
     liveDemo: "https://evigschools.com/",
   },
   {
-    id: 7,
+    id: 9,
     imgSrc: gpit,
     href: "https://m.gpitpro.com/",
     title: "GPIT Nigeria",
